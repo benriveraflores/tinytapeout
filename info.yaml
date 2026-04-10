@@ -22,9 +22,9 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "ui_in"
-  ui[1]: "ena"
-  ui[2]: "rst_n"
+  ui[0]: ""
+  ui[1]: ""
+  ui[2]: ""
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -39,12 +39,12 @@ pinout:
   uo[4]: "R0"
   uo[5]: "G0"
   uo[6]: "B0"
-  uo[7]: "uo_out"
+  uo[7]: "HSync"
 
   # Bidirectional pins
-  uio[0]: "uio_in"
-  uio[1]: "uio_out"
-  uio[2]: "uio_oe"
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
   uio[3]: ""
   uio[4]: ""
   uio[5]: ""
