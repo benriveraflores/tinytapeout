@@ -13,6 +13,7 @@ module tt_um_benriveraflores_vga(clk, reset, hsync, vsync, display_on, hpos, vpo
 
   input clk;
   input reset;
+  input ena;
   output reg hsync, vsync;
   output display_on;
   output reg [9:0] hpos;
