@@ -23,8 +23,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "clk"
+  ui[1]: "reset"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -33,11 +33,11 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
+  uo[0]: "hsync"
+  uo[1]: "vsync"
+  uo[2]: "display_on"
+  uo[3]: "hpos"
+  uo[4]: "vpos"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
