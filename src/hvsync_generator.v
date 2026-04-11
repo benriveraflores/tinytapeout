@@ -3,6 +3,7 @@
 
 /*
 Video sync generator, used to drive a VGA monitor.
+
 Timing from: https://en.wikipedia.org/wiki/Video_Graphics_Array
 To use:
 - Wire the hsync and vsync signals to top level outputs
